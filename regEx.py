@@ -48,6 +48,19 @@ run_regex_examples()
 
 
 
+text = "Hello 123 !_"
+
+# \d -> will find: ['1', '2', '3']
+# \D -> will find: ['H', 'e', 'l', 'l', 'o', ' ', ' ', '!', '_']
+
+# \w -> will find: ['H', 'e', 'l', 'l', 'o', '1', '2', '3', '_']
+# \W -> will find: [' ', ' ', '!']
+
+# \s -> will find the two spaces: [' ', ' ']
+# \S -> will find all visible characters: ['H', 'e', 'l', 'l', 'o', '1', '2', '3', '!', '_']
+
+
+
 
 
 # =====================================================================
